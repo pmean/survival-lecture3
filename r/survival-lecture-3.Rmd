@@ -234,7 +234,6 @@ Also mention how number of events dominates power calculation and how you want 2
 
 Save everything for possible later re-use.
 
-
 ```{r save-everything}
-save.image("~/survival-models/bin/survival-lecture-3.RData")
+save.image("survival-lecture-3.RData")
 ```
