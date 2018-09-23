@@ -52,7 +52,7 @@ Round this up to 75, with 25 deaths in the treatment group and 50 deaths in the 
 
 ```{r power-example}
 pi <- 1/3
-theta=log(2)
+theta <- log(2)
 (qnorm(0.975)+qnorm(0.80))^2/(theta^2*pi*(1-pi))
 ```
 
