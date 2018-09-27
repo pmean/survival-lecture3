@@ -52,7 +52,7 @@ Round this up to 75, with 25 deaths in the treatment group and 50 deaths in the 
 
 ```{r power-example}
 pi <- 1/3
-theta=log(2)
+theta <- log(2)
 (qnorm(0.975)+qnorm(0.80))^2/(theta^2*pi*(1-pi))
 ```
 
@@ -234,7 +234,6 @@ Also mention how number of events dominates power calculation and how you want 2
 
 Save everything for possible later re-use.
 
-
 ```{r save-everything}
-save.image("~/survival-models/bin/survival-lecture-3.RData")
+save.image("survival-lecture-3.RData")
 ```
